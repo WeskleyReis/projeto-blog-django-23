@@ -4,4 +4,7 @@ def index(request):
     return render(
         request,
         'blog/pages/index.html',
+        {
+            'nome': 'Luiz Otávio'
+        }
     )
